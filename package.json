@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/danliris/bateeq-masterplan-module/issues"
   },
-  "homepage": "https://github.com/danliris/bateeq-masterplan-module#readme"
+  "homepage": "https://github.com/danliris/bateeq-masterplan-module#readme",
+  "dependencies": {
+    "model-toolkit": "git+https://github.com/pinkgorilla/model-toolkit.git",
+    "module-toolkit": "git+https://github.com/pinkgorilla/module-toolkit.git"
+  }
 }
