@@ -4,7 +4,7 @@
   "description": "bateeq masterplan module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/models/index.js"
+    "test": "mocha test/managers/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,13 @@
   "dependencies": {
     "model-toolkit": "git+https://github.com/pinkgorilla/model-toolkit.git",
     "module-toolkit": "git+https://github.com/pinkgorilla/module-toolkit.git",
-    "should": "^13.2.1"
+    "sequelize": "^4.37.7",
+    "sequelize-msnodesqlv8": "^0.2.6-beta.7",
+    "should": "^13.2.1",
+    "tedious": "^2.3.1"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "sequelize-cli": "^4.0.0"
   }
 }
